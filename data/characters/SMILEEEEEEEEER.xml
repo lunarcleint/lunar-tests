@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="-85" y="165" sprite="wi/SMILER" scale="1.2" camx="-120" camy="30" icon="icon-mouse" color="#464945" holdTime="5">
-	<anim name="singDOWN" anim="smiler mouse down" x="51.67" y="-29.17" fps="24" loop="false"/>
-	<anim name="singLEFT" anim="smiler mouse left" x="102.5" y="160.83" fps="24" loop="false"/>
-	<anim name="singRIGHT" anim="smiler mouse rigth" x="41.84" y="71.17" fps="24" loop="false"/>
-	<anim name="singUP" anim="smiler mouse up" x="96.84" y="125.66" fps="24" loop="false"/>
-	<anim name="idle" anim="smiler mouse idle" x="0" y="0" fps="24" loop="false"/>
+<character x="-85" y="165" sprite="wi/SMILER" scale="1.1" camx="-120" camy="30" icon="icon-mouse" color="#464945" holdTime="5">
+	<anim name="singDOWN" anim="smiler mouse down" x="48.67" y="-39.17" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="smiler mouse left" x="111.59" y="157.19" fps="24" loop="false"/>
+	<anim name="singUP" anim="smiler mouse up" x="90.84" y="129.66" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="smiler mouse rigth" x="25.84" y="69.17" fps="24" loop="false"/>
+	<anim name="idle" anim="smiler mouse idle" x="0" y="0" fps="24" loop="true"/>
 </character>
