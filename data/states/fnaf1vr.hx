@@ -96,7 +96,7 @@ function resourceComplete(away3DEvent) {
 
 function draw(drawEvent) view.render();
 
-function onDestroy() {
+function destroy() {
     // 3D
     FlxView3D.dispose(loader);
 
@@ -133,4 +133,13 @@ function update(elapsed:Float) {
     if (controls.BACK) {
         FlxG.switchState(new FreeplayState());
     }
+
+    if (FlxG.keys.pressed.W || FlxG.keys.pressed.UP)
+        _cameraController.incrementWalk(16*elapsed);
+    if (FlxG.keys.pressed.S || FlxG.keys.pressed.DOWN)
+        _cameraController.incrementWalk(-16*elapsed);
+    if (FlxG.keys.pressed.A || FlxG.keys.pressed.LEFT)
+        _cameraController.incrementStrafe(-16*elapsed);
+    if (FlxG.keys.pressed.D || FlxG.keys.pressed.RIGHT)
+        _cameraController.incrementStrafe(16*elapsed);
 }
