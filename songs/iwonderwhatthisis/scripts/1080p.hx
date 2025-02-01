@@ -29,11 +29,9 @@ function postCreate() {
     }
 
     // Scale Up Ratings
-
     for(text in [scoreTxt, missesTxt, accuracyTxt]) {
         text.size += 3; text.borderSize = 1.5; text.y -= 15;
     }
-
     accuracyTxt.x -= 60;
 }
 
