@@ -1,7 +1,24 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.72" folder="stages" noteSkin="oldtimers" splashSkin="im old omg">
+<stage playerZoom="0.8" zoom="0.72" folder="stages" noteSkin="oldtimers" splashSkin="im old omg">
 	<sprite name="nosexi" x="-600" y="-200" sprite="bobux" scale="1.1"/>
 
+	<sprite name="daSTAT" x="1000" y="0" sprite="daSTAT" antialiasing="false" scrollx="0" scrolly="0" scale="6" alpha=".02">
+		<anim name="idle" anim="staticFLASH" loop="true" fps="24"/>
+		<property name="scrollFactor.x" type="float" value="0"/>
+		<property name="scrollFactor.y" type="float" value="0"/>
+
+		<property name="zoomFactor" type="float" value="0"/>
+	</sprite>
+
+	<sprite name="vig" x="0" y="0" sprite="pantalla" antialiasing="true" scrollx="0" scrolly="0" scale="1" alpha=".1" flipX="true" flipY="true">
+		<anim name="idle" anim="pantalla" loop="true" fps="24"/>
+		<property name="scrollFactor.x" type="float" value="0"/>
+		<property name="scrollFactor.y" type="float" value="0"/>
+
+		<property name="zoomFactor" type="float" value="0"/>
+	</sprite>
+
 	<dad x="-25" y="28" camxoffset="315" camyoffset="-10"/>
-	<boyfriend x="1035" y="25"/>
+	<boyfriend x="1160" y="32" camxoffset="-415" camyoffset="-10"/>
+
 </stage>

@@ -8,13 +8,22 @@ float rand(vec2 co){
 }
 
 float rand(float c){
-	return rand(vec2(c,1.0));
+    return rand(vec2(c,1.0));
 }
 
 void main()
 {
     vec2 uv = openfl_TextureCoordv.xy;
+    
+    // Sample the texture color
+    vec4 color = flixel_texture2D(bitmap, uv);
+    
+    float brightness = abs(1.-dot(color.rgb, vec3(0.299, 0.587, 0.114)))*1;
+    // float brightness = dot(color.rgb, vec3(0.299, 0.587, 0.114))*.2;
 
-    gl_FragColor = flixel_texture2D(bitmap, uv);
-    gl_FragColor.xyz *= (1.0+(rand(uv+time*.01)-.2)*(strength*.15));	
+    float noise = (rand(uv + time * 0.01) - 0.2) * strength * 0.15 * brightness;
+    
+    color.rgb *= (1.0-noise);
+    
+    gl_FragColor = color;
 }

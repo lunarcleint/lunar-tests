@@ -9,7 +9,7 @@ function create() {
     bloom = new CustomShader("bloom");
     bloom.size = 0; bloom.brightness = 1;
     bloom.directions = 16; bloom.quality = 6;
-    bloom.threshold = .775;
+    bloom.threshold = .655;
     FlxG.game.addShader(bloom);
 }
 
@@ -32,7 +32,7 @@ function onEvent(eventEvent) {
 }
 
 function setBloom(bloom_effect:Float) {
-    bloom.size = Math.max((bloom_effect) - 1, 0)*55;
+    bloom.size = Math.max((bloom_effect) - 1, 0)*60;
     bloom.brightness = Math.max(bloom_effect, 1);
 
     curbloom = bloom_effect;

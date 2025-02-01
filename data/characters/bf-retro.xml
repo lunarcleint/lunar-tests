@@ -9,8 +9,8 @@
 	<anim name="deathLoop" anim="BF Dead Loop" x="-61.17" y="-27.17" fps="24" loop="true"/>
 	<anim name="hey" anim="BF H" x="15" y="19" fps="24" loop="false"/>
 	<anim name="singUP" anim="BF NOTE UP0" x="19.17" y="20.5" fps="24" loop="false"/>
-	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="44.16" y="10.83" fps="24" loop="false"/>
-	<anim name="singLEFT" anim="BF NOTE LEFT0" x="-38.34" y="5.84" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="BF NOTE RIGHT0" x="44.16" y="10.83" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="BF NOTE LEFT0" x="-38.34" y="5.84" fps="24" loop="false"/>
 	<anim name="singDOWN" anim="BF NOTE DOWN0" x="7.51" y="-42.5" fps="24" loop="false"/>
 	<anim name="dodge" anim="boyfriend dodge" x="19.17" y="35.01" fps="24" loop="false"/>
 	<anim name="at" anim="BF Jeringa" x="51.66" y="10.83" fps="24" loop="false"/>

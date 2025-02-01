@@ -1,10 +1,10 @@
 <!DOCTYPE codename-engine-character>
-<character x="-95" y="75" sprite="wi/smiler_" scale="1.2" camx="-120" camy="30" icon="icon-mouse" color="#525951">
+<character x="-85" y="75" sprite="wi/smiler_" scale="1.1" camx="-40" camy="50" icon="icon-mouse" color="#525951">
 	<anim name="singDOWN" anim="Mouse Down" x="-13.33" y="-77.5" fps="24" loop="false"/>
-	<anim name="singLEFT" anim="Mouse Left" x="37.5" y="-18.33" fps="24" loop="false"/>
+	<anim name="risa" anim="laugh" x="75.67" y="-4.33" fps="24" loop="false"/>
+	<anim name="risaSingle" anim="laugh" x="74.33" y="-4.33" fps="24" loop="false" indices="28..34,34,34,34"/>
+	<anim name="singUP" anim="Mouse Up" x="-0.31" y="-47.27" fps="24" loop="false"/>
 	<anim name="singRIGHT" anim="Mouse Rigth" x="-3.33" y="-16.67" fps="24" loop="false"/>
-	<anim name="singUP" anim="Mouse Up" x="3.33" y="-50" fps="24" loop="false"/>
-	<anim name="risa" anim="laugh" x="74.67" y="-3.33" fps="24" loop="false"/>
-	<anim name="risaSingle" anim="laugh" x="73.33" y="-3.33" fps="24" loop="false" indices="28..34,34,34,34"/>
+	<anim name="singLEFT" anim="Mouse Left" x="42.05" y="-16.51" fps="24" loop="false"/>
 	<anim name="idle" anim="Mouse idle" x="0" y="0" fps="24" loop="false"/>
 </character>
