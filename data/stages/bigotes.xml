@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.6" name="bigotes" folder="stages/bigotes/">
+    <sprite name="BIGOTESBG" x="0" y="-400" sprite="BG_0" antialising="true" scrollx="0.7" scrolly="0.7"/>
+    <sprite name="tornado" x="1100" y="0" sprite="BG_TORNADO" antialising="true" scrollx="0.85" scrolly="0.85">
+		<anim name="idle" anim="BG TORNADO" loop="true"/>
+	</sprite>
+    <sprite name="BG1" x="0" y="0" sprite="BG_01" antialising="true" scrollx="0.8" scrolly="0.8"/>
+	<sprite name="BG2" x="200" y="1200" sprite="BG_01" antialising="true" scrollx="1" scrolly="1"/>
+    <dad x="1440" y="200" camxoffset="-120" camyoffset="40"/>
+    <boyfriend x="1300" y="500" camxoffset="220" camyoffset="-80"/>
+</stage>

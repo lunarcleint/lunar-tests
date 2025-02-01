@@ -1,0 +1,34 @@
+{
+    "params": [
+        {
+            "name": "Character",
+            "type": "StrumLine",
+            "defaultValue": 0
+        },
+        {
+            "name": "Color",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        },
+        {
+            "name": "Time (Steps)",
+            "type": "Float(0.25, 9999, 0.25, 2)",
+            "defaultValue": "10"
+        },
+        {
+            "name": "Alpha",
+            "type": "Float(0, 1, 0.01, 2)",
+            "defaultValue": ".6"
+        },
+        {
+            "name": "Scale",
+            "type": "Float(0, 2, 0.01, 2)",
+            "defaultValue": "1.4"
+        },
+        {
+            "name": "Anchor (ecco location as it scale)",
+            "type": "DropDown('middle', 'middle-bottom')",
+            "defaultValue": "middle-bottom"
+        }
+    ]
+}

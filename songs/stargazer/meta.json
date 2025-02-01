@@ -1,0 +1,8 @@
+{
+    "displayName": "Stargazer",
+    "bpm": 150.0,
+    "icon": "lime",
+    "color": "#458c29",
+    "coopAllowed": true,
+    "opponentModeAllowed": true
+}

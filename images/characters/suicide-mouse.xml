@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Suicide.png" width="5160" height="5661">
+  <SubTexture name="Hit Mouse0010" x="10" y="10"  width="1320" height="731" frameX="-20" frameY="-83" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0009" x="10" y="761"  width="1005" height="731" frameX="-20" frameY="-83" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Suicide Rigth0005" x="1350" y="10"  width="925" height="827" frameX="-1" frameY="-6" frameWidth="932" frameHeight="843"/>
+  <SubTexture name="Suicide Rigth0003" x="10" y="1512"  width="920" height="830" frameX="-0" frameY="-3" frameWidth="932" frameHeight="843"/>
+  <SubTexture name="Suicide Rigth0001" x="1035" y="857"  width="902" height="833" frameX="-2" frameY="-0" frameWidth="932" frameHeight="843"/>
+  <SubTexture name="Suicide Up0007" x="2295" y="10"  width="686" height="876" frameX="-31" frameY="-0" frameWidth="848" frameHeight="881"/>
+  <SubTexture name="Suicide Up0005" x="1957" y="906"  width="824" height="858" frameX="-0" frameY="-18" frameWidth="848" frameHeight="881"/>
+  <SubTexture name="Suicide Up0001" x="10" y="2362"  width="827" height="855" frameX="-15" frameY="-21" frameWidth="848" frameHeight="881"/>
+  <SubTexture name="Suicide Up0003" x="857" y="2362"  width="827" height="852" frameX="-7" frameY="-24" frameWidth="848" frameHeight="881"/>
+  <SubTexture name="Suicide Idle0007" x="1704" y="1784"  width="666" height="848" frameX="-4" frameY="-35" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Left0007" x="3001" y="10"  width="717" height="848" frameX="-76" frameY="-0" frameWidth="798" frameHeight="853"/>
+  <SubTexture name="Suicide Idle0005" x="3001" y="878"  width="665" height="845" frameX="-10" frameY="-34" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Left0005" x="2801" y="1743"  width="741" height="842" frameX="-1" frameY="-6" frameWidth="798" frameHeight="853"/>
+  <SubTexture name="Suicide Left0003" x="10" y="3237"  width="707" height="839" frameX="-42" frameY="-8" frameWidth="798" frameHeight="853"/>
+  <SubTexture name="Suicide Left0001" x="737" y="3237"  width="687" height="838" frameX="-59" frameY="-9" frameWidth="798" frameHeight="853"/>
+  <SubTexture name="Suicide Up0008" x="1444" y="3234"  width="634" height="837" frameX="-14" frameY="-39" frameWidth="848" frameHeight="881"/>
+  <SubTexture name="Suicide Rigth0008" x="2390" y="2605"  width="743" height="831" frameX="-23" frameY="-9" frameWidth="932" frameHeight="843"/>
+  <SubTexture name="Suicide Left0008" x="3738" y="10"  width="659" height="826" frameX="-107" frameY="-22" frameWidth="798" frameHeight="853"/>
+  <SubTexture name="Suicide Rigth0007" x="3562" y="1743"  width="821" height="825" frameX="-41" frameY="-9" frameWidth="932" frameHeight="843"/>
+  <SubTexture name="Hit Mouse0008" x="3686" y="878"  width="562" height="813" frameX="-98" frameY="-1" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0006" x="3562" y="2588"  width="550" height="805" frameX="-99" frameY="-8" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Suicide Idle0003" x="10" y="4096"  width="669" height="804" frameX="-4" frameY="-22" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Hit Mouse0004" x="699" y="4096"  width="544" height="802" frameX="-98" frameY="-11" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0003" x="1263" y="4095"  width="587" height="802" frameX="-98" frameY="-11" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Suicide Idle0014" x="1870" y="4091"  width="714" height="793" frameX="-1" frameY="-1" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Hit Mouse0001" x="3153" y="3413"  width="714" height="793" frameX="-35" frameY="-22" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Suicide Idle0013" x="4417" y="10"  width="733" height="791" frameX="-8" frameY="-3" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0011" x="4417" y="821"  width="733" height="789" frameX="-8" frameY="-5" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0009" x="4403" y="1630"  width="666" height="788" frameX="-2" frameY="-35" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0001" x="4403" y="2438"  width="662" height="781" frameX="-7" frameY="-13" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Down0005" x="2604" y="4226"  width="735" height="654" frameX="-0" frameY="-74" frameWidth="739" frameHeight="732"/>
+  <SubTexture name="Hit Mouse0015" x="4132" y="3239"  width="716" height="732" frameX="-10" frameY="-82" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0013" x="3887" y="3991"  width="711" height="731" frameX="-19" frameY="-83" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0011" x="10" y="4920"  width="723" height="731" frameX="-0" frameY="-83" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Suicide Down0008" x="753" y="4918"  width="566" height="728" frameX="-97" frameY="-0" frameWidth="739" frameHeight="732"/>
+  <SubTexture name="Suicide Down0003" x="1339" y="4917"  width="718" height="668" frameX="-10" frameY="-60" frameWidth="739" frameHeight="732"/>
+  <SubTexture name="Suicide Down0001" x="2077" y="4904"  width="692" height="682" frameX="-23" frameY="-46" frameWidth="739" frameHeight="732"/>
+  <SubTexture name="Suicide Down0007" x="2789" y="4900"  width="659" height="682" frameX="-37" frameY="-46" frameWidth="739" frameHeight="732"/>
+  <SubTexture name="Hit Mouse0002" x="3153" y="3413"  width="714" height="793" frameX="-35" frameY="-22" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0005" x="699" y="4096"  width="544" height="802" frameX="-98" frameY="-11" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0007" x="3562" y="2588"  width="550" height="805" frameX="-99" frameY="-8" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0012" x="10" y="4920"  width="723" height="731" frameX="-0" frameY="-83" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0014" x="3887" y="3991"  width="711" height="731" frameX="-19" frameY="-83" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0016" x="4132" y="3239"  width="716" height="732" frameX="-10" frameY="-82" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0017" x="4132" y="3239"  width="716" height="732" frameX="-10" frameY="-82" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0018" x="4132" y="3239"  width="716" height="732" frameX="-10" frameY="-82" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0019" x="4132" y="3239"  width="716" height="732" frameX="-10" frameY="-82" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0020" x="4132" y="3239"  width="716" height="732" frameX="-10" frameY="-82" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Hit Mouse0021" x="4132" y="3239"  width="716" height="732" frameX="-10" frameY="-82" frameWidth="1340" frameHeight="819"/>
+  <SubTexture name="Suicide Down0002" x="2077" y="4904"  width="692" height="682" frameX="-23" frameY="-46" frameWidth="739" frameHeight="732"/>
+  <SubTexture name="Suicide Down0004" x="1339" y="4917"  width="718" height="668" frameX="-10" frameY="-60" frameWidth="739" frameHeight="732"/>
+  <SubTexture name="Suicide Down0006" x="2604" y="4226"  width="735" height="654" frameX="-0" frameY="-74" frameWidth="739" frameHeight="732"/>
+  <SubTexture name="Suicide Idle0002" x="4403" y="2438"  width="662" height="781" frameX="-7" frameY="-13" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0004" x="10" y="4096"  width="669" height="804" frameX="-4" frameY="-22" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0006" x="3001" y="878"  width="665" height="845" frameX="-10" frameY="-34" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0008" x="1704" y="1784"  width="666" height="848" frameX="-4" frameY="-35" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0010" x="4403" y="1630"  width="666" height="788" frameX="-2" frameY="-35" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0012" x="4417" y="821"  width="733" height="789" frameX="-8" frameY="-5" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Idle0015" x="1870" y="4091"  width="714" height="793" frameX="-1" frameY="-1" frameWidth="747" frameHeight="889"/>
+  <SubTexture name="Suicide Left0002" x="737" y="3237"  width="687" height="838" frameX="-59" frameY="-9" frameWidth="798" frameHeight="853"/>
+  <SubTexture name="Suicide Left0004" x="10" y="3237"  width="707" height="839" frameX="-42" frameY="-8" frameWidth="798" frameHeight="853"/>
+  <SubTexture name="Suicide Left0006" x="2801" y="1743"  width="741" height="842" frameX="-1" frameY="-6" frameWidth="798" frameHeight="853"/>
+  <SubTexture name="Suicide Rigth0002" x="1035" y="857"  width="902" height="833" frameX="-2" frameY="-0" frameWidth="932" frameHeight="843"/>
+  <SubTexture name="Suicide Rigth0004" x="10" y="1512"  width="920" height="830" frameX="-0" frameY="-3" frameWidth="932" frameHeight="843"/>
+  <SubTexture name="Suicide Rigth0006" x="1350" y="10"  width="925" height="827" frameX="-1" frameY="-6" frameWidth="932" frameHeight="843"/>
+  <SubTexture name="Suicide Up0002" x="10" y="2362"  width="827" height="855" frameX="-15" frameY="-21" frameWidth="848" frameHeight="881"/>
+  <SubTexture name="Suicide Up0004" x="857" y="2362"  width="827" height="852" frameX="-7" frameY="-24" frameWidth="848" frameHeight="881"/>
+  <SubTexture name="Suicide Up0006" x="1957" y="906"  width="824" height="858" frameX="-0" frameY="-18" frameWidth="848" frameHeight="881"/>
+</TextureAtlas>

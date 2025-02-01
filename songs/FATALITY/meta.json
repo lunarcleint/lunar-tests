@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 125,
+	"difficulties": [
+		"INVASION MIX II"
+	],
+	"needsVoices": true,
+	"parsedColor": -16777216,
+	"displayName": "Fatality",
+	"icon": "face",
+	"name": "FATALITY",
+	"color": "#000000"
+}

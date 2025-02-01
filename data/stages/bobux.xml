@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.67" folder="stages">
+	<sprite name="nosexi" x="-600" y="-200" sprite="bobux"/>
+
+	<girlfriend>
+		<property name="visible" type="bool" value="false"/>
+	</girlfriend>
+	<dad x="100" y="100"/>
+	<boyfriend x="770" y="100"/>
+</stage>

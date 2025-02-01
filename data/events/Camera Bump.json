@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Amount",
+            "type": "Float(0.001, 10, 0.01, 2)",
+            "defaultValue": "0.05"
+        },
+		{
+            "name": "Camera",
+            "type": "DropDown('camGame', 'camHUD')",
+            "defaultValue": "camGame"
+        }
+    ]
+}

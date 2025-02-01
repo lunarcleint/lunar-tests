@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-80" y="540" icon="bf-art" flipX="true" camx="230" camy="-280" holdTime="4" scale="1">
+	<anim name="idle" anim="BF IDLE" fps="24" loop="false" x="-5" y="0"/>
+	<anim name="singLEFT" anim="BF LEFT" fps="24" loop="false" x="85" y="-26"/>
+	<anim name="singDOWN" anim="BF DOWN" fps="24" loop="false" x="-40" y="-41"/>
+	<anim name="singUP" anim="BF UP" fps="24" loop="false" x="44" y="17"/>
+	<anim name="singRIGHT" anim="BF RIGHT" fps="24" loop="false" x="42" y="-27"/>
+	<anim name="deathConfirm" anim="BF DEATH CONFIRM" fps="24" loop="false" x="77" y="260"/>
+	<anim name="firstDeath" anim="BF DEATH0" fps="24" loop="false" x="160" y="250"/>
+	<anim name="deathLoop" anim="BF DEATH LOOP" fps="24" loop="true" x="27" y="260"/>
+</character>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="Smiler_Mouse.png" width="5999" height="2374">
+  <SubTexture name="smiler mouse down0005" x="0" y="0"  width="739" height="630" frameX="-0" frameY="-46" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse down0003" x="739" y="0"  width="738" height="632" frameX="-0" frameY="-44" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse down0001" x="1477" y="0"  width="732" height="633" frameX="-2" frameY="-43" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse down0007" x="2209" y="0"  width="717" height="639" frameX="-17" frameY="-37" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse down0009" x="2926" y="0"  width="681" height="676" frameX="-41" frameY="-0" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse idle0001" x="3607" y="0"  width="606" height="710" frameX="-0" frameY="-7" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0003" x="4213" y="0"  width="583" height="711" frameX="-0" frameY="-22" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0013" x="4796" y="0"  width="591" height="716" frameX="-0" frameY="-1" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse rigth0009" x="5387" y="0"  width="612" height="716" frameX="-9" frameY="-68" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse idle0007" x="0" y="630"  width="578" height="717" frameX="-0" frameY="-6" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0009" x="578" y="632"  width="590" height="717" frameX="-0" frameY="-0" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0011" x="1168" y="633"  width="591" height="717" frameX="-0" frameY="-0" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0005" x="1759" y="639"  width="580" height="722" frameX="-0" frameY="-18" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse left0009" x="2339" y="639"  width="457" height="744" frameX="-139" frameY="-130" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse rigth0007" x="2796" y="676"  width="662" height="759" frameX="-9" frameY="-25" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse up0009" x="3458" y="710"  width="742" height="764" frameX="-0" frameY="-80" frameWidth="747" frameHeight="862"/>
+  <SubTexture name="smiler mouse rigth0001" x="4200" y="716"  width="656" height="783" frameX="-0" frameY="-1" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse rigth0003" x="4856" y="716"  width="654" height="783" frameX="-8" frameY="-1" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse rigth0005" x="0" y="1349"  width="662" height="783" frameX="-9" frameY="-1" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse up0007" x="662" y="1350"  width="709" height="818" frameX="-0" frameY="-39" frameWidth="747" frameHeight="862"/>
+  <SubTexture name="smiler mouse up0001" x="1371" y="1361"  width="699" height="847" frameX="-1" frameY="-10" frameWidth="747" frameHeight="862"/>
+  <SubTexture name="smiler mouse left0007" x="2070" y="1383"  width="643" height="851" frameX="-0" frameY="-25" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse up0003" x="2713" y="1435"  width="700" height="853" frameX="-1" frameY="-4" frameWidth="747" frameHeight="862"/>
+  <SubTexture name="smiler mouse up0005" x="3413" y="1474"  width="700" height="855" frameX="-0" frameY="-2" frameWidth="747" frameHeight="862"/>
+  <SubTexture name="smiler mouse left0001" x="4113" y="1499"  width="619" height="872" frameX="-10" frameY="-4" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse left0003" x="4732" y="1499"  width="612" height="873" frameX="-15" frameY="-3" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse left0005" x="5344" y="1499"  width="608" height="875" frameX="-18" frameY="-1" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse down0002" x="1477" y="0"  width="732" height="633" frameX="-2" frameY="-43" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse down0004" x="739" y="0"  width="738" height="632" frameX="-0" frameY="-44" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse down0006" x="0" y="0"  width="739" height="630" frameX="-0" frameY="-46" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse down0008" x="2209" y="0"  width="717" height="639" frameX="-17" frameY="-37" frameWidth="745" frameHeight="680"/>
+  <SubTexture name="smiler mouse idle0002" x="3607" y="0"  width="606" height="710" frameX="-0" frameY="-7" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0004" x="4213" y="0"  width="583" height="711" frameX="-0" frameY="-22" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0006" x="1759" y="639"  width="580" height="722" frameX="-0" frameY="-18" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0008" x="0" y="630"  width="578" height="717" frameX="-0" frameY="-6" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0010" x="578" y="632"  width="590" height="717" frameX="-0" frameY="-0" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0012" x="1168" y="633"  width="591" height="717" frameX="-0" frameY="-0" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0014" x="4796" y="0"  width="591" height="716" frameX="-0" frameY="-1" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0015" x="4796" y="0"  width="591" height="716" frameX="-0" frameY="-1" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0016" x="4796" y="0"  width="591" height="716" frameX="-0" frameY="-1" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse idle0017" x="4796" y="0"  width="591" height="716" frameX="-0" frameY="-1" frameWidth="612" frameHeight="746"/>
+  <SubTexture name="smiler mouse left0002" x="4113" y="1499"  width="619" height="872" frameX="-10" frameY="-4" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse left0004" x="4732" y="1499"  width="612" height="873" frameX="-15" frameY="-3" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse left0006" x="5344" y="1499"  width="608" height="875" frameX="-18" frameY="-1" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse left0008" x="2070" y="1383"  width="643" height="851" frameX="-0" frameY="-25" frameWidth="648" frameHeight="881"/>
+  <SubTexture name="smiler mouse rigth0002" x="4200" y="716"  width="656" height="783" frameX="-0" frameY="-1" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse rigth0004" x="4856" y="716"  width="654" height="783" frameX="-8" frameY="-1" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse rigth0006" x="0" y="1349"  width="662" height="783" frameX="-9" frameY="-1" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse rigth0008" x="2796" y="676"  width="662" height="759" frameX="-9" frameY="-25" frameWidth="677" frameHeight="788"/>
+  <SubTexture name="smiler mouse up0002" x="1371" y="1361"  width="699" height="847" frameX="-1" frameY="-10" frameWidth="747" frameHeight="862"/>
+  <SubTexture name="smiler mouse up0004" x="2713" y="1435"  width="700" height="853" frameX="-1" frameY="-4" frameWidth="747" frameHeight="862"/>
+  <SubTexture name="smiler mouse up0006" x="3413" y="1474"  width="700" height="855" frameX="-0" frameY="-2" frameWidth="747" frameHeight="862"/>
+  <SubTexture name="smiler mouse up0008" x="662" y="1350"  width="709" height="818" frameX="-0" frameY="-39" frameWidth="747" frameHeight="862"/>
+</TextureAtlas>

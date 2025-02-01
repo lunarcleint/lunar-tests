@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="stage" folder="stages/o2/">
+    <sprite name="bg"               x="0" y="0"   sprite="O2Background"       antialising="true"/>
+    <sprite name="fans" x="410" y="300" sprite="fansss" antialising="true">
+		<anim name="idle" anim="fansss instance 1" loop="true"/>
+	</sprite>
+    <sprite name="switch"               x="150" y="570"   sprite="switch"       antialising="true"/>
+    <dad x="500" y="666"/>
+    <boyfriend x="1700" y="270"/>
+</stage>

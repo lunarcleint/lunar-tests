@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sr BIGOTES.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SR BIGotes DOWN0000" x="5" y="5" width="507" height="735" frameX="0" frameY="-56" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes DOWN0001" x="517" y="5" width="511" height="692" frameX="-7" frameY="-26" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes DOWN0002" x="517" y="5" width="511" height="692" frameX="-7" frameY="-26" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes DOWN0003" x="1033" y="5" width="508" height="693" frameX="-9" frameY="-12" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes DOWN0004" x="1546" y="5" width="508" height="714" frameX="-9" frameY="-12" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes DOWN0005" x="2059" y="5" width="506" height="693" frameX="-10" frameY="-4" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes DOWN0006" x="2059" y="5" width="506" height="693" frameX="-10" frameY="-4" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes DOWN0007" x="2570" y="5" width="506" height="693" frameX="-10" frameY="0" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes DOWN0008" x="3081" y="5" width="506" height="693" frameX="-10" frameY="0" frameWidth="518" frameHeight="791"/>
+	<SubTexture name="SR BIGotes IDLE0000" x="3592" y="5" width="397" height="960" frameX="0" frameY="-37" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0001" x="3994" y="5" width="397" height="960" frameX="0" frameY="-37" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0002" x="4396" y="5" width="363" height="935" frameX="-17" frameY="-51" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0003" x="4396" y="5" width="363" height="935" frameX="-17" frameY="-51" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0004" x="4764" y="5" width="345" height="956" frameX="-21" frameY="-28" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0005" x="5114" y="5" width="345" height="956" frameX="-21" frameY="-28" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0006" x="5464" y="5" width="357" height="970" frameX="-11" frameY="-10" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0007" x="5826" y="5" width="357" height="970" frameX="-11" frameY="-10" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0008" x="6188" y="5" width="361" height="975" frameX="-10" frameY="-3" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0009" x="6188" y="5" width="361" height="975" frameX="-10" frameY="-3" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0010" x="6554" y="5" width="364" height="976" frameX="-9" frameY="0" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0011" x="6923" y="5" width="388" height="976" frameX="-2" frameY="0" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0012" x="7316" y="5" width="365" height="976" frameX="-9" frameY="0" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes IDLE0013" x="7316" y="5" width="365" height="976" frameX="-9" frameY="0" frameWidth="397" frameHeight="997"/>
+	<SubTexture name="SR BIGotes LEFT0000" x="5" y="986" width="678" height="814" frameX="0" frameY="0" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes LEFT0001" x="688" y="986" width="671" height="811" frameX="-53" frameY="-9" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes LEFT0002" x="688" y="986" width="671" height="811" frameX="-53" frameY="-9" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes LEFT0003" x="1364" y="986" width="680" height="805" frameX="-68" frameY="-12" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes LEFT0004" x="2049" y="986" width="680" height="805" frameX="-68" frameY="-12" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes LEFT0005" x="2734" y="986" width="680" height="805" frameX="-73" frameY="-15" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes LEFT0006" x="2734" y="986" width="680" height="805" frameX="-73" frameY="-15" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes LEFT0007" x="3419" y="986" width="681" height="804" frameX="-78" frameY="-16" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes LEFT0008" x="4105" y="986" width="681" height="804" frameX="-78" frameY="-16" frameWidth="759" frameHeight="820"/>
+	<SubTexture name="SR BIGotes RIGHT0000" x="4791" y="986" width="689" height="802" frameX="-116" frameY="-51" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes RIGHT0001" x="5485" y="986" width="728" height="784" frameX="-43" frameY="-53" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes RIGHT0002" x="5485" y="986" width="728" height="784" frameX="-43" frameY="-53" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes RIGHT0003" x="6218" y="986" width="731" height="778" frameX="-15" frameY="-46" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes RIGHT0004" x="6954" y="986" width="731" height="787" frameX="-15" frameY="-37" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes RIGHT0005" x="5" y="1805" width="732" height="779" frameX="-5" frameY="-44" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes RIGHT0006" x="5" y="1805" width="732" height="779" frameX="-5" frameY="-44" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes RIGHT0007" x="742" y="1805" width="733" height="822" frameX="0" frameY="0" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes RIGHT0008" x="1480" y="1805" width="733" height="778" frameX="0" frameY="-44" frameWidth="805" frameHeight="853"/>
+	<SubTexture name="SR BIGotes UP0000" x="2218" y="1805" width="426" height="989" frameX="-1" frameY="0" frameWidth="461" frameHeight="1035"/>
+	<SubTexture name="SR BIGotes UP0001" x="2649" y="1805" width="442" height="992" frameX="-1" frameY="-19" frameWidth="461" frameHeight="1035"/>
+	<SubTexture name="SR BIGotes UP0002" x="2649" y="1805" width="442" height="992" frameX="-1" frameY="-19" frameWidth="461" frameHeight="1035"/>
+	<SubTexture name="SR BIGotes UP0003" x="3096" y="1805" width="455" height="991" frameX="0" frameY="-36" frameWidth="461" frameHeight="1035"/>
+	<SubTexture name="SR BIGotes UP0004" x="3556" y="1805" width="455" height="991" frameX="0" frameY="-36" frameWidth="461" frameHeight="1035"/>
+	<SubTexture name="SR BIGotes UP0005" x="4016" y="1805" width="461" height="991" frameX="0" frameY="-42" frameWidth="461" frameHeight="1035"/>
+	<SubTexture name="SR BIGotes UP0006" x="4016" y="1805" width="461" height="991" frameX="0" frameY="-42" frameWidth="461" frameHeight="1035"/>
+	<SubTexture name="SR BIGotes UP0007" x="4482" y="1805" width="461" height="991" frameX="0" frameY="-44" frameWidth="461" frameHeight="1035"/>
+	<SubTexture name="SR BIGotes UP0008" x="4948" y="1805" width="461" height="991" frameX="0" frameY="-44" frameWidth="461" frameHeight="1035"/>
+</TextureAtlas>

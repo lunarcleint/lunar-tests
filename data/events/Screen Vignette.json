@@ -1,0 +1,34 @@
+{
+    "params": [
+        {
+            "name": "Should Tween?",
+            "type": "Bool",
+            "defaultValue": true
+        },
+        {
+            "name": "New Amount",
+            "type": "Float(0.1, 99, 0.01, 2)",
+            "defaultValue": "1.2"
+        },
+        {
+            "name": "New Strength",
+            "type": "Float(0.1, 99, 0.01, 2)",
+            "defaultValue": "1.2"
+        },
+        {
+            "name": "Tween Time (Steps)",
+            "type": "Float(0.25, 9999, 0.25, 2)",
+            "defaultValue": "4"
+        },
+		{
+            "name": "Tween Ease (ex: circ, quad, cube)",
+            "type": "DropDown('linear', 'back', 'bounce', 'circ', 'cube', 'elastic', 'expo', 'quad', 'quart', 'quint', 'sine', 'smoothStep', 'smootherStep')",
+            "defaultValue": "linear"
+        },
+        {
+            "name": "Tween Type (ex: InOut)",
+            "type": "DropDown('In', 'Out', 'InOut')",
+            "defaultValue": "In"
+        }
+    ]
+}

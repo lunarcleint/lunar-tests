@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BG TORNADO.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BG TORNADO0000" x="5" y="5" width="965" height="1039" frameX="0" frameY="-30" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0001" x="5" y="5" width="965" height="1039" frameX="0" frameY="-30" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0002" x="5" y="5" width="965" height="1039" frameX="0" frameY="-30" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0003" x="5" y="5" width="965" height="1039" frameX="0" frameY="-30" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0004" x="5" y="5" width="965" height="1039" frameX="0" frameY="-30" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0005" x="975" y="5" width="910" height="1042" frameX="-8" frameY="-26" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0006" x="975" y="5" width="910" height="1042" frameX="-8" frameY="-26" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0007" x="975" y="5" width="910" height="1042" frameX="-8" frameY="-26" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0008" x="975" y="5" width="910" height="1042" frameX="-8" frameY="-26" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0009" x="975" y="5" width="910" height="1042" frameX="-8" frameY="-26" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0010" x="1890" y="5" width="888" height="1031" frameX="-29" frameY="-25" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0011" x="1890" y="5" width="888" height="1031" frameX="-29" frameY="-25" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0012" x="1890" y="5" width="888" height="1031" frameX="-29" frameY="-25" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0013" x="1890" y="5" width="888" height="1031" frameX="-29" frameY="-25" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0014" x="1890" y="5" width="888" height="1031" frameX="-29" frameY="-25" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0015" x="2783" y="5" width="879" height="1041" frameX="-77" frameY="0" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0016" x="2783" y="5" width="879" height="1041" frameX="-77" frameY="0" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0017" x="2783" y="5" width="879" height="1041" frameX="-77" frameY="0" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0018" x="2783" y="5" width="879" height="1041" frameX="-77" frameY="0" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0019" x="2783" y="5" width="879" height="1041" frameX="-77" frameY="0" frameWidth="965" frameHeight="1069"/>
+	<SubTexture name="BG TORNADO0020" x="2783" y="5" width="879" height="1041" frameX="-77" frameY="0" frameWidth="965" frameHeight="1069"/>
+</TextureAtlas>

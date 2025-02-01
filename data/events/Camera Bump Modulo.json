@@ -1,0 +1,14 @@
+{
+    "params": [
+        {
+            "name": "Bop Interval",
+            "type": "Int(1, 9999999, 1)",
+            "defaultValue": "4"
+        },
+        {
+            "name": "Camera Bop Strength",
+            "type": "Float(0.1, 10, 0.01, 2)",
+            "defaultValue": "1"
+        }
+    ]
+}
