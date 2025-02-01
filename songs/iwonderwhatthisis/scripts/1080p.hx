@@ -12,6 +12,7 @@ function postCreate() {
             FlxPoint.get((FlxG.width * strOffset) - ((Note.swagWidth * (chartStrumLine.strumScale == null ? 1 : chartStrumLine.strumScale)) * 2), this.strumLine.y) :
             FlxPoint.get(chartStrumLine.strumPos[0] == 0 ? ((FlxG.width * strOffset) - ((Note.swagWidth * (chartStrumLine.strumScale == null ? 1 : chartStrumLine.strumScale)) * 2)) : chartStrumLine.strumPos[0], chartStrumLine.strumPos[1]);
 
+        strumLine.startingPos = startingPos;
         for (i=>strum in strumLine.members) 
             strum.x = startingPos.x + ((Note.swagWidth * chartStrumLine.strumScale) * i);
     }

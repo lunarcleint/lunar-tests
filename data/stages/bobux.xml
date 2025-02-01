@@ -1,10 +1,7 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.81" folder="stages">
-	<sprite name="nosexi" x="-600" y="-200" sprite="bobux"/>
+<stage zoom="0.72" folder="stages">
+	<sprite name="nosexi" x="-600" y="-200" sprite="bobux" scale="1.1"/>
 
-	<girlfriend>
-		<property name="visible" type="bool" value="false"/>
-	</girlfriend>
-	<dad x="-55" y="28" camxoffset="305" camyoffset="15"/>
-	<boyfriend x="1035" y="33"/>
+	<dad x="-25" y="28" camxoffset="315" camyoffset="-10"/>
+	<boyfriend x="1035" y="25"/>
 </stage>
