@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.72" folder="stages">
+<stage zoom="0.72" folder="stages" noteSkin="oldtimers" splashSkin="im old omg">
 	<sprite name="nosexi" x="-600" y="-200" sprite="bobux" scale="1.1"/>
 
 	<dad x="-25" y="28" camxoffset="315" camyoffset="-10"/>

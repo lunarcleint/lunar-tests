@@ -2,8 +2,8 @@
 import flixel.math.FlxBasePoint;
 import flixel.addons.util.FlxSimplex;
 
-static var camMoveOffset:Float = 40;
-static var camAngleOffset:Float = .3;
+static var camMoveOffset:Float = 45;
+static var camAngleOffset:Float = .32;
 
 static var camFollowChars:Bool = true;
 static var camAngleChars:Bool = true;
