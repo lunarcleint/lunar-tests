@@ -9,8 +9,8 @@ function create() {
     bloom = new CustomShader("bloom");
     bloom.size = 0; bloom.brightness = 1;
     bloom.directions = 16; bloom.quality = 6;
-    bloom.threshold = .655;
-    FlxG.game.addShader(bloom);
+    bloom.threshold = .715;
+    FlxG.camera.addShader(bloom);
 }
 
 var bloomTween:FlxTween = null;
@@ -32,13 +32,8 @@ function onEvent(eventEvent) {
 }
 
 function setBloom(bloom_effect:Float) {
-    bloom.size = Math.max((bloom_effect) - 1, 0)*60;
+    bloom.size = Math.max((bloom_effect) - 1, 0)*70;
     bloom.brightness = Math.max(bloom_effect, 1);
 
     curbloom = bloom_effect;
-}
-
-function destroy() {
-    if(Options.gameplayShaders)
-        FlxG.game.removeShader(bloom);
 }
