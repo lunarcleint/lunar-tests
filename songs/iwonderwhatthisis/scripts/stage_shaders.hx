@@ -24,12 +24,10 @@ function create() {
 	FlxG.camera.addShader(pixel_vig);
     */
 
-    /*
     tape_noise = new CustomShader("tapenoise");
     tape_noise.res = [FlxG.width, FlxG.height];
     tape_noise.time = 0;
     FlxG.camera.addShader(tape_noise);
-    */
 
     crt_shader = new CustomShader("crt");
     crt_shader.res = [FlxG.width, FlxG.height];
@@ -52,7 +50,7 @@ function create() {
 }
 
 function update(elapsed:Float) {
-    // tape_noise.time += elapsed;
+    tape_noise.time += elapsed;
     crt_shader.time += elapsed;
     if (FlxG.random.bool(70))
         static_shader.time += elapsed;

@@ -32,8 +32,23 @@ function onEvent(eventEvent) {
 }
 
 function setBloom(bloom_effect:Float) {
-    bloom.size = Math.max((bloom_effect) - 1, 0)*70;
+    var bloomGlowAmount:Float = Math.max((bloom_effect) - 1, 0)*70;
+    bloom.size = Math.min(bloomGlowAmount, 100);
+
+    bloom.directions = 16;
+    if (bloomGlowAmount > 90)
+        bloom.directions = 32;
+
+    bloom.threshold = .715;
+    if (bloomGlowAmount > 100) 
+        bloom.threshold -= ((bloomGlowAmount-100)/10000)*2;
+    trace(bloom.threshold);
+
     bloom.brightness = Math.max(bloom_effect, 1);
 
     curbloom = bloom_effect;
+}
+
+function destroy() {
+    // FlxG.game.removeShader(bloom);
 }

@@ -59,8 +59,7 @@ void main(){
     // Convert to grayscale brightness (perceived luminance)
     float brightness = dot(baseColor, vec3(0.299, 0.587, 0.114));
 
-    vec3 finalColor = baseColor + vec3(noise*.2);
-    if (brightness > .3 && noise > .1) finalColor = vec3(0.);
+    vec3 finalColor = baseColor + vec3(noise*.07);
 
     gl_FragColor = vec4(finalColor, 1.0);
 }
