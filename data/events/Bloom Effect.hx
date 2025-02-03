@@ -42,7 +42,6 @@ function setBloom(bloom_effect:Float) {
     bloom.threshold = .715;
     if (bloomGlowAmount > 100) 
         bloom.threshold -= ((bloomGlowAmount-100)/10000)*2;
-    trace(bloom.threshold);
 
     bloom.brightness = Math.max(bloom_effect, 1);
 

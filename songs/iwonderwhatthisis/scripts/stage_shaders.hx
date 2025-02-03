@@ -9,6 +9,9 @@ var crt_shader:CustomShader;
 
 var bloom_legacy:CustomShader;
 
+var glitch_amp:CustomShader;
+var glitch_wow:CustomShader;
+
 function create() {
     static_shader = new CustomShader("static");
 	static_shader.time = 0; static_shader.strength = 4;
@@ -37,6 +40,23 @@ function create() {
     bloom_legacy = new CustomShader("bloom_legacy");
     camHUD.addShader(bloom_legacy);
 
+    /*
+    glitch_amp = new CustomShader("glitch_amp");
+    glitch_amp.beatMode = false; glitch_amp.bpm = 0;
+    glitch_amp.time = 0; glitch_amp.amp = .02;
+    glitch_amp.sinnerSpeed = .2;
+    glitch_amp.visible = true;
+    */ 
+    //stage.stageSprites["nosexi"].shader = glitch_amp;
+    // camHUD.addShader(glitch_amp);
+
+    glitch_wow = new CustomShader("glitch_wow");
+    glitch_wow.res = [FlxG.width, FlxG.height];
+    glitch_wow.time = 0;
+    glitch_wow.glitchAmount = .5;
+    glitch_wow.visible = true;
+    FlxG.camera.addShader(glitch_wow);
+
     comboRatings = [
         new ComboRating(0, "F", 0xFF333333),   // Dark Gray
         new ComboRating(0.5, "E", 0xFF555555), // Slightly Lighter Gray
@@ -52,10 +72,16 @@ function create() {
 function update(elapsed:Float) {
     tape_noise.time += elapsed;
     crt_shader.time += elapsed;
+    // glitch_amp.time += elapsed;
+    glitch_wow.time += elapsed;
     if (FlxG.random.bool(70))
         static_shader.time += elapsed;
 }
 
 function destroy() {
     FlxG.game.removeShader(static_shader);
+}
+
+function onOpponentHit() {
+    shake();
 }
