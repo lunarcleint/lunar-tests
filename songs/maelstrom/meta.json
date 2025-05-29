@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "Icon",
+	"coopAllowed": true,
+	"name": "Maelstrom",
+	"color": "#691BAE",
+	"stepsPerBeat": 4,
+	"displayName": "MAELSTROM",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 170
+}

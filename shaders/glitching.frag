@@ -1,58 +1,55 @@
+// PORTED AND CHANGED BY LUNAR CLEINT (FROM THAT ONE HOTLINE SHADER)
+
 #pragma header
-uniform float iTime;
-float random2d(vec2 n) { 
-    return fract(sin(dot(n, vec2(12.9898, 4.1414))) * 43758.5453);
-}
 
-float randomRange (in vec2 seed, in float min, in float max) {
-		return min + random2d(seed) * (max - min);
-}
+uniform float time;
+uniform float glitchAmount;
 
-// return 1 if v inside 1d range
-float insideRange(float v, float bottom, float top) {
-   return step(bottom, v) - step(top, v);
-}
+#define PI 3.14159265
 
-//inputs
-uniform float AMT; //0 - 1 glitch amount
-uniform float SPEED; //0 - 1 speed
-   
-void main()
-{
-    
-    float time = floor(iTime * SPEED * 60.0);    
-	vec2 uv = openfl_TextureCoordv;
-    
-    //copy orig
-    vec3 outCol = flixel_texture2D(bitmap, uv).rgb;
-    
-    //randomly offset slices horizontally
-    float maxOffset = AMT/2.0;
-    for (float i = 0.0; i < 10.0 * AMT; i += 1.0) {
-        float sliceY = random2d(vec2(time , 2345.0 + float(i)));
-        float sliceH = random2d(vec2(time , 9035.0 + float(i))) * 0.25;
-        float hOffset = randomRange(vec2(time , 9625.0 + float(i)), -maxOffset, maxOffset);
-        vec2 uvOff = uv;
-        uvOff.x += hOffset;
-        if (insideRange(uv.y, sliceY, fract(sliceY+sliceH)) == 1.0 ){
-        	outCol = flixel_texture2D(bitmap, uvOff).rgb;
-        }
+vec4 tex2D( sampler2D _tex, vec2 _p ){
+    vec4 col = flixel_texture2D( _tex, _p );
+    if ( 0.5 < abs( _p.x - 0.5 ) ) {
+        col = vec4( 0.1 );
     }
-    
-    //do slight offset on one entire channel
-    float maxColOffset = AMT/6.0;
-    float rnd = random2d(vec2(time , 9545.0));
-    vec2 colOffset = vec2(randomRange(vec2(time , 9545.0),-maxColOffset,maxColOffset), 
-                       randomRange(vec2(time , 7205.0),-maxColOffset,maxColOffset));
-    if (rnd < 0.33){
-        outCol.r = flixel_texture2D(bitmap, uv + colOffset).r;
-        
-    }else if (rnd < 0.66){
-        outCol.g = flixel_texture2D(bitmap, uv + colOffset).g;
-        
-    } else{
-        outCol.b = flixel_texture2D(bitmap, uv + colOffset).b;  
+    return col;
+}
+
+float hash( vec2 _v ){
+    return fract( sin( dot( _v, vec2( 89.44, 19.36 ) ) ) * 22189.22 );
+}
+
+float iHash( vec2 _v, vec2 _r ){
+    float h00 = hash( vec2( floor( _v * _r + vec2( 0.0, 0.0 ) ) / _r ) );
+    float h10 = hash( vec2( floor( _v * _r + vec2( 1.0, 0.0 ) ) / _r ) );
+    float h01 = hash( vec2( floor( _v * _r + vec2( 0.0, 1.0 ) ) / _r ) );
+    float h11 = hash( vec2( floor( _v * _r + vec2( 1.0, 1.0 ) ) / _r ) );
+    vec2 ip = vec2( smoothstep( vec2( 0.0, 0.0 ), vec2( 1.0, 1.0 ), mod( _v*_r, 1. ) ) );
+    return ( h00 * ( 1. - ip.x ) + h10 * ip.x ) * ( 1. - ip.y ) + ( h01 * ( 1. - ip.x ) + h11 * ip.x ) * ip.y;
+}
+
+float noise( vec2 _v ){
+    float sum = 0.;
+    for( int i=1; i<9; i++ )
+    {
+        sum += iHash( _v + vec2( i ), vec2( 2. * pow( 2., float( i ) ) ) ) / pow( 2., float( i ) );
     }
-       
-	gl_FragColor = vec4(outCol,1.0);
+    return sum;
+}
+
+void main(){
+    vec2 uvn = openfl_TextureCoordv.xy;
+
+    // tape wave
+    uvn.x += ( noise( vec2( uvn.y, time ) ) - 0.5 )* 0.005;
+    uvn.x += ( noise( vec2( uvn.y * 100.0, time * 10.0 ) ) - 0.5 ) * (0.01*glitchAmount);
+
+    vec4 col = tex2D( bitmap, uvn );
+    float ogAlpha = col.a;
+
+    // ac beat
+    col *= 1.0 + clamp( noise( vec2( 0.0, uvn.y + time * 0.2 ) ) * 0.6 - 0.25, 0.0, 0.1 );
+    col.a = ogAlpha;
+
+    gl_FragColor = col;
 }

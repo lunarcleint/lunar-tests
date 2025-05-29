@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="maelstrom2" icon="404_front">
+	<anim name="idle" anim="maelIDLE" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="maelDOWN" x="39" y="-129" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="maelRIGHT" x="-122" y="-76" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="maelLEFT" x="-164" y="-25" fps="24" loop="false"/>
+	<anim name="singUP" anim="maelUP" x="0" y="470" fps="24" loop="false"/>
+</character>

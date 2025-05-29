@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="ftrixbf_MAEL" flipX="true" isPlayer="true" icon="bf_mael">
+	<anim name="idle" anim="BF idle dance" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN00" x="-11" y="-50" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT00" x="-48" y="-5" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT00" x="10" y="-8" fps="24" loop="false"/>
+	<anim name="singUP" anim="BF NOTE UP00" x="-46" y="27" fps="24" loop="false"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS" x="-41" y="27" fps="24" loop="false"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" x="-12" y="-19" fps="24" loop="false"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" x="11" y="18" fps="24" loop="false"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" x="-42" y="22" fps="24" loop="false"/>
+</character>

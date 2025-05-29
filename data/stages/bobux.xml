@@ -30,5 +30,7 @@
 
 	<dad x="-25" y="28" camxoffset="315" camyoffset="-10"/>
 	<boyfriend x="1160" y="32" camxoffset="-415" camyoffset="-10"/>
+	
+	<box name="GRADIENT" x="-100" y="-800" width="4000" height="1700" color="0x00000000"/>
 
 </stage>

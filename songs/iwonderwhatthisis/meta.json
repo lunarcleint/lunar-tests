@@ -1,1 +1,16 @@
-{"opponentModeAllowed":false,"icon":"mouse","difficulties":["skibdi","remix"],"parsedColor":-16777216,"color":"#000000","name":"iwonderwhatthisis","coopAllowed":false,"stepsPerBeat":4,"displayName":"REMIX","beatsPerMeasure":4,"bpm":200}
+{
+	"opponentModeAllowed": false,
+	"icon": "mouse",
+	"difficulties": [
+		"skibdi",
+		"remix"
+	],
+	"color": "#000000",
+	"name": "iwonderwhatthisis",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "REMIX",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 200
+}

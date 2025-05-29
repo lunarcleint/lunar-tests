@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-stage>
+<stage playerZoom="1.02" zoom="0.78" folder="stages/mael">
+	<sprite name="bg" x="0" y="-600" sprite="secret_bg" scale="3"/>
+
+	<sprite name="screens_alert" x="100" y="-490" sprite="alert" scale="2" scrolly=".95" />
+
+	<sprite name="screens_broken" x="100" y="-510" sprite="broken" scale="2" scrolly=".95">
+		<property name="visible" type="bool" value="false" />
+	</sprite>
+
+	<sprite name="screens_blank" x="100" y="-490" sprite="secret_screens" scale="2" scrolly=".95">
+		<property name="visible" type="bool" value="false" />
+	</sprite>
+	
+    <sprite name="floor" x="430" y="350" sprite="secret_platform" scale="1"/>
+
+	<boyfriend x="1480" y="50" camxoffset="-315" camyoffset="-10" />
+    
+	<dad x="-605" y="-645" camxoffset="315" camyoffset="50"/>
+
+</stage>

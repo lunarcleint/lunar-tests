@@ -32,7 +32,7 @@ function onEvent(eventEvent) {
 }
 
 function setBloom(bloom_effect:Float) {
-    var bloomGlowAmount:Float = Math.max((bloom_effect) - 1, 0)*70;
+    var bloomGlowAmount:Float = Math.max((bloom_effect) - 1, 0)*60;
     bloom.size = Math.min(bloomGlowAmount, 100);
 
     bloom.directions = 16;

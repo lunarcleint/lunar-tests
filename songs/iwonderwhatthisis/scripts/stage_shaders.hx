@@ -12,9 +12,11 @@ var bloom_legacy:CustomShader;
 var glitch_amp:CustomShader;
 var glitch_wow:CustomShader;
 
+var camcharacters:FlxCamera;
+
 function create() {
     static_shader = new CustomShader("static");
-	static_shader.time = 0; static_shader.strength = 4;
+	static_shader.time = 0; static_shader.strength = 6;
 	static_shader.speed = 20;
 	FlxG.game.addShader(static_shader);
 
@@ -53,9 +55,20 @@ function create() {
     glitch_wow = new CustomShader("glitch_wow");
     glitch_wow.res = [FlxG.width, FlxG.height];
     glitch_wow.time = 0;
-    glitch_wow.glitchAmount = .5;
+    glitch_wow.glitchAmount = .2;
     glitch_wow.visible = true;
-    FlxG.camera.addShader(glitch_wow);
+
+    // gradient = stage.stageSprites["GRADIENT"];
+    // FlxGradient.overlayGradientOnBitmapData(
+    //     gradient.pixels,
+    //     gradient.width,
+    //     gradient.height,
+    //     [0xFF000000,0xFF000000, 0xFF000000, 0xFF000000,0xFF000000, 0xFF260F0F, 0xFFA71717, 0xFFD90808]
+    // );
+    // gradient.blend = 0 /*ADD*/ ;
+
+    var gradientShader:CustomShader = new CustomShader("gradient");
+    dad.shader = gradientShader;
 
     comboRatings = [
         new ComboRating(0, "F", 0xFF333333),   // Dark Gray
@@ -67,6 +80,16 @@ function create() {
         new ComboRating(0.95, "S", 0xFFD0D0D0), // Almost White Gray
         new ComboRating(1, "S++", 0xFFEAEAEA), // Very Light Gray
     ];
+
+    camcharacters = new FlxCamera();
+
+    for (strum in strumLines)
+        for (char in strum.characters)
+            char.cameras = [camcharacters];
+
+    camcharacters.bgColor = 0x00000000; 
+    FlxG.cameras.add(camcharacters, false);
+    camcharacters.addShader(glitch_wow);
 }
 
 function update(elapsed:Float) {
@@ -76,6 +99,10 @@ function update(elapsed:Float) {
     glitch_wow.time += elapsed;
     if (FlxG.random.bool(70))
         static_shader.time += elapsed;
+
+    camcharacters.scroll = FlxG.camera.scroll;
+    camcharacters.zoom = FlxG.camera.zoom;
+    camcharacters.angle = FlxG.camera.angle;
 }
 
 function destroy() {
