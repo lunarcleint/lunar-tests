@@ -41,7 +41,7 @@ void main(){
     vec2 uvn = openfl_TextureCoordv.xy;
 
     // tape wave
-    uvn.x += ( noise( vec2( uvn.y, time ) ) - 0.5 )* 0.005;
+    uvn.x += ( noise( vec2( uvn.y, time ) ) - 0.5 )* 0.002;
     uvn.x += ( noise( vec2( uvn.y * 100.0, time * 10.0 ) ) - 0.5 ) * (0.01*glitchAmount);
 
     vec4 col = tex2D( bitmap, uvn );

@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="ftrixbf_MAEL" flipX="true" isPlayer="true" icon="bf_mael">
+<character sprite="ftrixbf_MAEL" flipX="true" isPlayer="true" icon="bf_mael" color="#259fdf">
 	<anim name="idle" anim="BF idle dance" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singDOWN" anim="BF NOTE DOWN00" x="-11" y="-50" fps="24" loop="false"/>
 	<anim name="singRIGHT" anim="BF NOTE RIGHT00" x="-48" y="-5" fps="24" loop="false"/>

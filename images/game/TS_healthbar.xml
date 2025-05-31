@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TS_healthbar.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="health_move0000" x="0" y="0" width="602" height="19"/>
+	<SubTexture name="health_move0001" x="0" y="34" width="602" height="19"/>
+	<SubTexture name="health_move0002" x="0" y="68" width="602" height="19"/>
+	<SubTexture name="health_move0003" x="0" y="102" width="602" height="19"/>
+	<SubTexture name="health_move0004" x="0" y="136" width="602" height="19"/>
+	<SubTexture name="health_move0005" x="0" y="170" width="602" height="19"/>
+	<SubTexture name="health_move0006" x="0" y="204" width="602" height="19"/>
+	<SubTexture name="health_move0007" x="0" y="238" width="602" height="19"/>
+	<SubTexture name="health_move0008" x="0" y="272" width="602" height="19"/>
+	<SubTexture name="health_move0009" x="0" y="306" width="602" height="19"/>
+	<SubTexture name="health_move0010" x="0" y="340" width="602" height="19"/>
+	<SubTexture name="health_move0011" x="0" y="374" width="602" height="19"/>
+	<SubTexture name="health_move0012" x="0" y="408" width="602" height="19"/>
+	<SubTexture name="health_move0013" x="0" y="442" width="602" height="19"/>
+</TextureAtlas>

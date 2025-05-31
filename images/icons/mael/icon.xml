@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mael icons win.png">
+<SubTexture name="lose0000" x="0" y="0" width="144" height="147" frameX="-7" frameY="-1" frameWidth="161" frameHeight="161" />
+<SubTexture name="neutral0000" x="0" y="147" width="140" height="127" frameX="-13" frameY="-16" frameWidth="162" frameHeight="160" />
+<SubTexture name="win0000" x="144" y="0" width="131" height="138" frameX="-9" frameY="-6" frameWidth="149" frameHeight="156" />
+</TextureAtlas>

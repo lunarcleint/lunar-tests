@@ -22,16 +22,16 @@ function postCreate() {
 
     for (healthItem in [healthBarBG, healthBar, iconP1, iconP2]) {
         healthItem.scale.set(1.4, 1.4);
-        healthItem.y -= 40;
+        healthItem.y -= 45;
         if (Std.isOfType(healthItem, HealthIcon)) {
             healthItem.scale.set(1.35, 1.35);
-            healthItem.y -= 20;
+            healthItem.y -= 25;
         }
     }
 
     // Scale Up Ratings
     for(text in [scoreTxt, missesTxt, accuracyTxt]) {
-        text.size += 3; text.borderSize = 1.5; text.y -= 15;
+        text.size += 3; text.borderSize = 1.5; text.y -= 20;
     }
     accuracyTxt.x -= 60;
 }
