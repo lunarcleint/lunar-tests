@@ -25,7 +25,7 @@ function postCreate() {
         for (ix in 0...4) {
             var text:FlxSprite = new FlxSprite().loadGraphic(Paths.image('stages/mael/texts/' + Std.string(FlxG.random.int(1,24))));
             text.x = -890 + 955*ix; text.scrollFactor.y = 0.9;
-            text.y = (-740 + 553*iy);
+            text.y = (-740 + 553*iy); text.ID = ix + (iy>0?4:0);
             textsGroup.add(text);
         }
     }
@@ -62,7 +62,7 @@ function initHealthBar() {
 
 function initShaders() {
     bloom = new CustomShader("bloom");
-    bloom.size = 170; bloom.brightness = 1.7;
+    bloom.size = 190; bloom.brightness = 1.8;
     bloom.directions = 32; bloom.quality = 6;
     bloom.threshold = .715;
 
@@ -81,8 +81,9 @@ function initShaders() {
     glitch_wow = new CustomShader("glitch_wow");
     glitch_wow.res = [150, 150];
     glitch_wow.time = 0;
-    glitch_wow.glitchAmount = 0.1;
+    glitch_wow.glitchAmount = 0.04;
     glitch_wow.visible = true;
+    dad.shader = glitch_wow;
 
     fogShader = new CustomShader("gradient");
     fogShader.cameraZoom = FlxG.camera.zoom;
@@ -94,13 +95,12 @@ function initShaders() {
 
     FlxG.camera.addShader(fogShader);
 
-    FlxG.camera.addShader(bloom);
     FlxG.camera.addShader(glitch);
+    FlxG.camera.addShader(bloom);
     FlxG.camera.addShader(abbr);
 	FlxG.camera.addShader(static_shader);
 
 	camHUD.addShader(static_shader);
-
 }
 
 var __timer:Float = 0; 
@@ -113,7 +113,6 @@ function update(elapsed:Float) {
 
     glitch_wow.time = __timer;
 
-    glitch_wow.glitchAmount = lerp(glitch_wow.glitchAmount, 0, .1);
     glitch.glitchAmount = lerp(glitch.glitchAmount, 0.2, .6);
     abbr.rOffset = [lerp(abbr.rOffset[0], -.0007, .9), 0];
     abbr.bOffset = [lerp(abbr.bOffset[0], .0007, .9), 0];
@@ -126,24 +125,31 @@ function update(elapsed:Float) {
 function onDadHit() {
     glitch.glitchAmount = 3.8+FlxG.random.float(0.5, 1);
 
-    glitch_wow.glitchAmount = glitch.glitchAmount;
-
-    abbr.rOffset = [-glitch.glitchAmount*0.003, 0];
-    abbr.bOffset = [glitch.glitchAmount*0.003, 0];
+    abbr.rOffset = [-glitch.glitchAmount*0.0002, 0];
+    abbr.bOffset = [glitch.glitchAmount*0.0002, 0];
 }
 
-function randomizeTexts() {
-    var fullSweep:Bool = FlxG.random.bool();
+function randomizeTexts(fullSweep:Bool) {
+    var randomIDs:Array<Int> = [for (i in 0...8) i];
+    if (!fullSweep) {
+        FlxG.random.shuffle(randomIDs);
+        randomIDs.splice(0, FlxG.random.int(3, 4));
+    }
     for (text in textsGroup.members) {
-        if (!fullSweep && FlxG.random.bool()) continue;
-        FlxTween.tween(text, {"scale.y": 0}, ((Conductor.crochet / 4) / 1000) * 4, {ease: FlxEase.elasticInOut, onComplete : (twn:FlxTween) -> {
+        if (!randomIDs.contains(text.ID)) continue;
+        FlxTween.tween(text, {"scale.y": 0}, (((Conductor.crochet / 4) / 1000) * 4) * (fullSweep ? 1 : 1.2), {startDelay: fullSweep ? 0 : ((Conductor.crochet / 2) / 1000) * randomIDs.indexOf(text.ID), ease: FlxEase.elasticInOut, onComplete : (twn:FlxTween) -> {
             text.loadGraphic(Paths.image('stages/mael/texts/' + Std.string(FlxG.random.int(1,24))));
-            FlxTween.tween(text, {"scale.y": 1}, ((Conductor.crochet / 4) / 1000) * 4, {ease: FlxEase.elasticInOut});
+            FlxTween.tween(text, {"scale.y": 1}, (((Conductor.crochet / 4) / 1000) * 4) * (fullSweep ? 1 : 1.2), {ease: FlxEase.elasticInOut});
         }});
     }
 }
 
 function beatHit(curBeat:Int) {
-    if (curBeat > 0 && curBeat % 4 == 0) randomizeTexts();
+    if (curBeat > 0) {
+        if (curBeat % (4*6) == 0)
+            randomizeTexts(true);
+        else if (curBeat % (4*2) == 0)
+            randomizeTexts(false);
+    }
 }
 
